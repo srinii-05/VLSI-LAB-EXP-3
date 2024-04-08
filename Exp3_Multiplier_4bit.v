@@ -1,24 +1,11 @@
-module ha(a,b,sum,carry);
-input a,b;
-output sum,carry;
+module Multiplier_4bit(
+    input [3:0] A,
+    input [3:0] B,
+    output reg [7:0] P
+);
 
-
-endmodule
-
-module fa_ha(a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-
-
-endmodule
-
-module multi_4(a,b,p,carry);
-input[3:0]a,b;
-output [6:0]p;
-output carry;
-wire [17:1]w;
-
-
-
+always @(*) begin
+    P = A * B;
+end
 
 endmodule
