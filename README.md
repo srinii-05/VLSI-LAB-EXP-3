@@ -1,5 +1,7 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
-**AIM: **
+**SIMULATION AND IMPLEMENTATION OF MULTIPLIER**
+
+**AIM:**
+
  To simulate and synthesis multiplier using Xilinx ISE.
 
 **APPARATUS REQUIRED:**
@@ -105,6 +107,6 @@ endmodule
 
 
 **Result**
-
+Thus simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using VIVADO 2023.1 was done and output verified successfully.
 
 
